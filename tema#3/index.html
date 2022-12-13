@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="icon" href="icons/cutlery.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <meta name="author" content="Daria Gruian">
+  <meta name="keywords" content=" food, restaurant, burger, sweets, jobs, eatwell">
+	<meta name="description" content="The best restaurant in town! Come to our place and convince yourself.">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>eatwell</title>
+</head>
+
+<body>
+<header>
+  <nav class="navbar navbar-expand-lg bg-dark">
+    <h1 class="navbar-brand">
+      <a class="nav-link" href="index.html">
+        <img src="icons/cutlery.png" />eatwell
+      </a>
+    </h1>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#meniu" aria-controls="meniu" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="meniu">
+      <ul class="nav main-menu flex-column flex-md-row">
+        <li class="nav-item">
+          <a class="nav-link" href="#aboutus">About us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#menu">Menu</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#jobs" role="button" data-bs-toggle="dropdown" aria-expanded="false">Jobs
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#server">Server</a></li>
+            <li><a class="dropdown-item" href="#linecook">Line cook</a></li>
+            <li><a class="dropdown-item" href="#cashier">Cashier</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div id="carusel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carusel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carusel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carusel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carusel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#carusel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="slider/sl3.jpg" class="d-block w-100" alt="Sandwich with cherry tomato, broccoli and a leaf on top">
+        <div class="carousel-caption d-none d-md-block">
+          <h4>Sandwich with tomato and broccoli</h4>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="slider/sl2.jpg" class="d-block w-100" alt="a plate with cooked fish and potatoes">
+        <div class="carousel-caption d-none d-md-block">
+          <h4>Fish with potato</h4>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="slider/sl1.jpg" class="d-block w-100" alt="a large variety of cooked sweets">
+        <div class="carousel-caption d-none d-md-block">
+          <h4>Our sweets</h4>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="slider/sl4.jpg" class="d-block w-100" alt="a group of people eating fast foods">
+        <div class="carousel-caption d-none d-md-block">
+          <h4>We also have fast food</h4>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="slider/sl5.jpg" class="d-block w-100" alt="a sliced peperoni pizza">
+        <div class="carousel-caption d-none d-md-block">
+          <h4>Peperoni pizza</h4>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carusel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carusel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+    </div> 
+</header>
+
+
+<div class="container">
+  <h2 id="aboutus">About us</h2><hr>
+  <div class="row g-0">
+    <div class="col-sm-12 col-lg-6">
+      <h3>Our story</h3>
+      <p>This place was born on the initiative of three young people who had a dream: to open a select restaurant in this area of the city. Enjoy a unique atmosphere, indulge your senses, enjoy special moments with your loved ones. Discover traditional cuisine dishes reinvented in a unique style, following modern trends. Please enjoy the taste that you will want to taste again and again in a space where you can enjoy the food with all five senses.
+      </p>
+      <h3>Our place</h3>
+      <p>If you like a retro looking place, eatwell is surely the spot you will want to visit! We have cozy chairs, old-school tables, and many pictures on the walls so that you will feel like you traveled back in time.Recently restored to its Baroque façade, the castle invites you to rediscover it. Enjoy a unique atmosphere, indulge your senses, enjoy special moments with your loved ones, and enjoy new! and special experiences together.</p>
+    </div>
+    <div class="col-12 col-md-12 col-lg-6">
+      <img class="w-100 h-100 rounded" src="retro.jpg" alt="a retro restaurant picture with a women on the right">
+    </div>
+  </div>
+</div>
+
+<div class="container">
+    <h2 id="menu">Menu</h2><hr>
+    <p>Our restaurant menu features appetizers like soup, salad and more. You'll also find pasta, steak, and so much more on our menu! Whether you're looking for something sweet after dinner or just need a little snack between courses, we've got what you need. Here are our new additions to the menu:</p>
+  <div class="row">
+    <div class="card" style="width: 18rem;">
+      <img src="cards/avo.jpg" class="card-img-top" alt="a fresh avocado toast with leafs on top">
+      <div class="card-body">
+        <h4 class="card-title">Avocado toast</h4>
+        <p class="card-text">The avocado toast is an easy-to-make snack that can be enjoyed by anyone. It is made from a combination of avocados, bread, and mayonnaise. It is a healthy choice for people looking for a quick meal on the go or as an after-school snack.</p>
+        <span class="badge">Special offer: only 3$</span>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="cards/bbq.jpg" class="card-img-top" alt="a piece of meat covered with barbeque sauce and vegetables behind it">
+      <div class="card-body">
+        <h4 class="card-title">BBQ ground beef</h4>
+        <p class="card-text">The BBQ ground beef dish looks like a piece of meat with barbecue sauce, but it isn't really a piece of meat. It has a texture that's soft and squishy, and it has a taste that's savory and salty.</p>
+        <span class="badge">New!</span>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="cards/burger.jpg" class="card-img-top" alt="a big hamburger on a white plate">
+      <div class="card-body">
+        <h4 class="card-title">Burger</h4>
+        <p class="card-text">This burger is special because it's made with local ingredients. We start with a fresh patty made with local beef, and then we grill up some homemade sauce and add it all together in a soft bun.</p>
+        <span class="badge">25% off</span>
+      </div>
+    </div>
+  </div>
+</div>  
+
+<div class="container">
+  <h2 id="jobs">Jobs</h2><hr>
+  <div class="row">
+      <p>Our culture is relaxed and welcoming—we want you to feel comfortable coming into work each day. You'll be working with other people who are passionate about healthy eating and creating connections with our customers, which will make your job just as fulfilling as it is fun! We're looking for people who are enthusiastic about creating great tasting food that is also good for their health and the environment. We're looking for people who share our vision of creating an inclusive community where everyone can feel welcome.</p>
+    <div class="col-12">
+      <div class="accordion" id="server">
+        <div class="accordion-item" id="server">
+          <h3 class="accordion-header" id="panelsStayOpen-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+            Server
+            </button>
+          </h3>
+          <div id="panelsStayOpen-collapseOne"  class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOn">
+            <div class="accordion-body">
+              <p>This job is responsible for taking orders from customers and serving them food. It also involves cleaning tables and refilling drinks. This position is ideal for someone who wants to work in a relaxed environment, enjoys being around people, and is looking for flexible hours.</p>
+              <h5>Job responsibilities:</h5>
+              -Taking orders and providing customer service<br>
+              -Serving food and beverages to customers<br>
+              -Cleaning tables, kitchen tables, and floors<br>
+              <h5>Job requirements:</h5>
+              -Experience in a restaurant setting<br>
+              -Ability to lift heavy objects<br>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item" id="linecook">
+          <h3 class="accordion-header" id="panelsStayOpen-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+              Line cook
+            </button>
+          </h3>
+          <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+            <div class="accordion-body">
+              <p>The line cook is responsible for preparing and serving food to customers in a clean and professional manner. You will work with the chef to create menus for each day of the week, including prepping ingredients, chopping vegetables and meats, adding seasonings, and more. You will also assist in creating new dishes from scratch by researching recipes from other restaurants or using your own creativity.
+              </p>
+              <h5>Job advantajes:</h5>
+              -Taking orders and providing customer service<br>
+              -Serving food and beverages to customers<br>
+              -Cleaning tables, kitchen tables, and floors<br>
+              <h5>Job requirements:</h5>
+              -Experience in a restaurant<br>
+              -A degree in cooking<br>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item" id="cashier">
+          <h3 class="accordion-header" id="panelsStayOpen-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+              Cashier
+            </button>
+          </h3>
+          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+            <div class="accordion-body">
+              <p>This position is responsible for taking orders at the front of house, serving food and beverages, clearing tables, washing dishes and glassware, maintaining cleanliness standards in the kitchen area, and performing any other tasks assigned by management. Our goal is simple: provide excellent customer service so you can earn tips and make money while gaining valuable experience in the food industry.
+              </p>
+              <h5>Job responsibilities:</h5>
+              -Taking orders from customers<br>
+              -Serving food and drinks to customers<br>
+              -Cleaning tables, counters, and floors after customers have finished eating<br>
+              -Making sure that all equipment is properly maintained<br>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="b-example-divider">
+  <div class="container">
+    <div class="row">
+      <footer class="d-flex flex-wrap justify-content-between   align-items-center py-3 my-4">
+        <div class="col mb-3">
+          <h5>Contact</h5>
+          <ul class="nav flex-column">
+            <li class="nav p-0 text-muted">+3354 983 298</li> <li class="nav p-0 t">Adress:</li>
+            <li class="nav p-0 text-muted">Texas, number 202</li>
+            <li class="nav p-0 ">Reserve a table:</li>
+            <li class="nav p-0 text-muted">eatwell@contact.com</li>
+          </ul>
+        </div>
+        <div class="col-md-4 d-flex align-items-center">
+          <span class="mb-3 mb-md-0 text-muted"><img src="icons/cutlery.png">
+            <a href="index.html" class="text-muted">eatwell
+            </a>© 2022 All rights reserved
+          </span>
+        </div>
+        <ul class="nav col-md-4 justify-content-end list-unstyled">
+          <li class="ms-3"><a class="text-muted" href="https://twitter.com/"><img src="/icons/twitter.png" alt="twitter icon"></a></li>
+          <li class="ms-3"><a class="text-muted" href="https://instagram.com/"><img src="/icons/instagram.png" alt="instagram icon"></a></li>
+          <li class="ms-3"><a class="text-muted" href="https://web.whatsapp.com/"><img src="/icons/whatsapp.png" alt="whatsapp icon"></a></li>
+        </ul>
+      </footer>
+    </div>
+  </div> 
+</div>   
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+</body>
+</html>

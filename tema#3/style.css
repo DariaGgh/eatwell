@@ -1,0 +1,98 @@
+body{
+    color: aliceblue;
+    background-color: #38393a;
+}
+
+.nav-link img{
+    width:12%;
+    margin: 3% 3% 3% 10%;
+}
+
+.nav-link{
+    color: white;
+    --bs-nav-link-hover-color: #FF7043;
+}
+
+.navbar {
+    flex-wrap: nowrap;
+    padding: 0px;
+}
+
+.navbar-toggler {
+    margin-right: 5%;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+    margin-right: 5%;
+}
+
+.carousel-item img{
+      min-height: 30em;
+      max-height: 30em;
+      object-fit: cover;
+}
+
+.carousel-caption {
+    text-shadow: 0px 0px 10px black;
+    right: 20%;
+    left: 20%;
+}
+
+.col-12 img{
+    object-fit: cover;
+    margin: 3%;
+}
+
+h2 {
+    padding: 5% 0% 2% 15%;
+    font-size: 2.5em;
+    color: #FF7043;
+}
+
+h3{
+    color: #F4511E;
+}
+
+p {
+    text-align: justify;
+    text-indent: 2em;
+    padding: 1%;
+}
+
+.card{
+    width: 20em;
+    border: none;
+    margin: 2% auto;
+    color:#212529;
+    padding: 0;
+}
+
+.card img{
+    min-height: 13em;
+    max-height: 13em;
+    object-fit: cover;
+}
+
+.badge {
+    background-color: #F4511E;
+}
+
+.accordion{
+    margin-bottom: 5em;
+}
+
+footer img{
+    width: 2em;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+.b-example-divider {
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 0.5em 1.5em rgb(0 0 0 / 10%), inset 0 0.125em 0.5em rgb(0 0 0 / 15%);
+}
